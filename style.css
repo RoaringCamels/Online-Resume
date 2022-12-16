@@ -6,5 +6,68 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: black;
+  background: rgb(85, 85, 85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: rgb(38, 37, 37);
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_Side {
+  position: relative;
+  background: rgb(40, 40, 40);
+  padding: 40px;
+}
+
+.profileText {
+  position: relative;
+  display: felx;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.profileText .imgBx {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileText .imgBx img {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profileText h2 {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.container .right_Side {
+  position: relative;
+  background: rgb(255, 255, 255);
+  padding: 40px;
 }
