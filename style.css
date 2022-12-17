@@ -12,7 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-
+/*Container that holds the entire page*/
 .container {
   position: relative;
   width: 100%;
@@ -25,12 +25,13 @@ body {
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
+/*Begin left_Side*/
 .container .left_Side {
   position: relative;
   background: rgb(40, 40, 40);
   padding: 40px;
 }
-
+/*Container holding the image and some text(Name and title)*/
 .profileText {
   position: relative;
   display: flex;
@@ -39,7 +40,7 @@ body {
   padding-bottom: 20px;
   border-bottom: 1px solid rgb(255, 255, 255);
 }
-
+/*formats the box holding the image*/
 .profileText .imgBx {
   position: relative;
   width: 250px;
@@ -47,6 +48,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
 }
+/*formats the image*/
 .profileText .imgBx img {
   position: absolute;
   top: -20px;
@@ -54,7 +56,7 @@ body {
   width: 100%;
   object-fit: cover;
 }
-
+/*Formats the name*/
 .profileText h2 {
   color: white;
   font-size: 1.5em;
@@ -64,14 +66,16 @@ body {
   font-weight: 600;
   line-height: 1.4em;
 }
+/*Formats the title under the name*/
 .profileText h2 span {
   font-size: 0.8em;
   font-weight: 300;
 }
-
+/*Formats the container holding the contact information*/
 .contactInfo {
   padding-top: 30px;
 }
+/*Formats the title "Contact Info"*/
 .title {
   color: white;
   text-transform: uppercase;
@@ -79,6 +83,7 @@ body {
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
+/*the ul and li format the list with its icons, spans and headers*/
 .contactInfo ul {
   position: relative;
 }
@@ -113,6 +118,7 @@ body {
   color: white;
   font-weight: 300;
 }
+/*This portion formats the progress bar(background of the bar)*/
 .contactInfo.language .percent {
   position: relative;
   width: 100%;
@@ -121,6 +127,7 @@ body {
   display: block;
   margin-top: 5px;
 }
+/*This portion formats the progress bar(foreground of the bar)*/
 .contactInfo.language .percent div {
   position: absolute;
   top: 0;
@@ -128,7 +135,9 @@ body {
   height: 100%;
   background: white;
 }
+/*END OF THE LEFT_SIDE*/
 
+/*Begin the formatting of the RIGHT_SIDE*/
 .container .right_Side {
   position: relative;
   background: rgb(255, 255, 255);
