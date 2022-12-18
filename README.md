@@ -1,4 +1,3 @@
-#My static online resume implementing basic HTML and CSS
+My static online resume implementing basic HTML and CSS
 
-<img src="QRCode.png" alt="drawing" width="200"/>
-![QR](QRCode.png "QR Code")
+<img src="QRCode.png" alt="QRCode" width="200"/>
